@@ -1,0 +1,53 @@
+/* loginRegister.css */
+
+/* Container styling */
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Alert styling */
+.Alert {
+    margin-bottom: 15px;
+}
+
+/* Text field styling */
+.TextField {
+    margin-bottom: 15px;
+}
+
+/* Button styling */
+.Button {
+    margin-top: 10px;
+}
+
+/* Accordion styling */
+.Accordion {
+    margin-top: 15px;
+}
+
+/* Accordion summary styling */
+.AccordionSummary {
+    background-color: #f5f5f5;
+}
+
+/* Accordion details (registration form) styling */
+.AccordionDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Additional styling for registration form fields */
+#login_name,
+#password,
+#password_repeat,
+#first_name,
+#last_name,
+#location,
+#description,
+#occupation,
+.MuiInputBase-root#login_name {
+    margin-bottom: 10px;
+}
